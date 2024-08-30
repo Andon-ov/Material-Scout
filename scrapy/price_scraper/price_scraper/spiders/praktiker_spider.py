@@ -34,3 +34,6 @@ class PraktikerSpider(scrapy.Spider):
         next_page = response.css('a.next-page::attr(href)').get()
         if next_page:
             yield response.follow(next_page, callback=self.parse_results)
+
+
+# run with "scrapy crawl praktiker_spider -o products.json"
