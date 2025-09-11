@@ -1,0 +1,6 @@
+Django==5.1
+djangorestframework==3.16.1
+Scrapy==2.13.3
+psycopg2-binary==2.9.10
+selenium==4.35.0
+requests==2.32.5
